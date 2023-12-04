@@ -1,0 +1,72 @@
+.main-container {
+    height: 100vh;
+    justify-content: flex-end;
+}
+
+.main-image {
+    height: 200px;  
+    object-fit: cover;
+    margin-top: 10%;
+}
+
+.main-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-subtitle {
+    margin-top: 0;
+}
+
+.main-field {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.main-field-custom {
+    width: 50vw;
+}
+
+
+.main-instructions {
+    margin-top: 30px;
+}
+
+.credits {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.secondary-field {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media screen and (orientation: portrait) {
+
+    .main-image {
+        height: 100px;
+    }
+
+    .main-field-custom {
+        width: 70vw;
+    }
+
+    .main-instructions {
+        text-align: center;
+        width: 80vw;
+        line-height: 1.5;
+    }
+
+    .credits {
+        margin-top: 30%;
+    }
+}

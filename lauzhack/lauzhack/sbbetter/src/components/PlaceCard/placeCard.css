@@ -1,0 +1,32 @@
+.sbb-card:hover {
+    scale: 1.05;
+}
+
+.place-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    transition: all .1s ease-in-out;
+    gap: 20px;
+}
+
+/* .place-card:hover {
+    scale: 1.05;
+} */
+
+.place-infos {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.place-infos-title {
+    margin-top: 0;
+}
+
+.place-image {
+    width: 40%;
+    object-fit: cover;
+    border-radius: 5px;
+}

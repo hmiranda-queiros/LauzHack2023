@@ -1,0 +1,46 @@
+.places-container {
+    position: relative;
+    justify-content: flex-start;
+}
+
+.places-title {
+    margin-bottom: 30px;
+}
+
+.main-instructions {
+    margin-top: 30px;
+}
+
+.loading-indicator {
+    margin-top: 30px;
+}
+
+.places-field {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.places-card-container {
+    margin-top: 20px;
+    padding-top: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.no_prompt {
+    margin-top: 50px;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backButton {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}

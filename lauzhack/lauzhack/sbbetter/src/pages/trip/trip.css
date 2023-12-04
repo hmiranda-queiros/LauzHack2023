@@ -1,0 +1,54 @@
+.trip-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.trip-list {
+    flex: 2;
+    height: 100%;
+    padding: 20px;
+    overflow-y: auto;
+    border-right: outset 5px solid #e0e0e0 ;
+    scrollbar-color: #e0e0e0 #e0e0e000;
+    scrollbar-width: 6px;
+}
+
+.loading-indicator {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.trip-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.trip-list::-webkit-scrollbar-track {
+    background: #e0e0e000;
+}
+
+.trip-list::-webkit-scrollbar-thumb {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    border: 3px solid #e0e0e000;
+}
+
+.trip-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+#map {
+    flex: 3;
+    height: 100%;
+}
+
+.title-ride {
+    margin-top: 10px;
+}
